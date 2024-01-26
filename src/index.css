@@ -1,0 +1,17 @@
+body {
+  background-color: beige;
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.Gallery:hover {
+  cursor: pointer;
+}
+
+#lol:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+}
